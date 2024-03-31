@@ -1,2 +1,1 @@
-# 3-ponto-vale-demai
-3-ponto-vale-demai
+Atividade Prática 02 - JAVA + Spring Boot
