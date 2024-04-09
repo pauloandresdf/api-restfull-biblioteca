@@ -11,18 +11,18 @@ import java.util.List;
 public class LivroService {
 
     @Autowired
-    private LivroRepository livroRepository; // Instância injetada corretamente
+    private LivroRepository livroRepository; 
 
     public Livro create(Livro livro) {
-        return livroRepository.save(livro); // Use a instância, não a interface
+        return livroRepository.save(livro); 
     }
 
     public List<Livro> findAll() {
-        return livroRepository.findAll(); // Use a instância
+        return livroRepository.findAll(); 
     }
 
     public Livro findById(Long id) {
-        return livroRepository.findById(id).orElse(null); // Use a instância
+        return livroRepository.findById(id).orElse(null); 
     }
 
     public Livro update(Livro livro) {
