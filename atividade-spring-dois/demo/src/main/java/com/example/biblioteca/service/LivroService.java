@@ -1,4 +1,4 @@
-package com.example.biblioteca.service;
+sepackage com.example.biblioteca.service;
 
 import com.example.biblioteca.entity.Livro;
 import com.example.biblioteca.repository.LivroRepository;
@@ -26,12 +26,11 @@ public class LivroService {
     }
 
     public Livro update(Livro livro) {
-        // Se o livro já existir, o método save() atualizará o livro existente.
-        // Isso depende da lógica de negócios e de como o JPA está configurado.
-        return livroRepository.save(livro); // Use a instância
+        
+        return livroRepository.save(livro); 
     }
 
     public void delete(Long id) {
-        livroRepository.deleteById(id); // Use a instância
+        livroRepository.deleteById(id); 
     }
 }
