@@ -101,7 +101,7 @@ api-restfull-main/
 | dataDeEntrega    | LocalDate |
 | entregaRealizada | Boolean   |
 
-## 🛠️ Melhorias Futuras
+## 🛠️ Melhorias que irei realizar futuramente
 
 - Implementar testes unitários
 - Adicionar Swagger para documentação da API
